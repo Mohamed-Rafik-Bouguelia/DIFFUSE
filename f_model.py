@@ -7,7 +7,8 @@ class FModel_V1(T.nn.Module):
         """Initializes a neural network with dense blocks and a final linear layer for cluster assignments.
         Args:
             k (int): Output dimension of the last layer.
-        """        super().__init__()
+        """
+        super().__init__()
         self.dense_block1 = self.dense_block(20)
         self.dense_block2 = self.dense_block(20)
         self.dense_block3 = self.dense_block(20)
