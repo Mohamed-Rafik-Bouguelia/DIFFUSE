@@ -29,8 +29,8 @@ def load(dataset_name):
         "REALDISP-ideal_processed":   "datasets/processed/REALDISP_ideal.pickle", 
         "REALDISP-mutual_processed":  "datasets/processed/REALDISP_mutual.pickle", 
         "REALDISP-self_processed":    "datasets/processed/REALDISP_self.pickle", 
-        "VPA_ext":                    "datasets/processed/Vicon_Physical_Action.pickle", 
-        "ADL_ext":                    "datasets/processed/ADL_HMP_Dataset.pickle", 
+        "VPA_processed":              "datasets/processed/Vicon_Physical_Action.pickle", 
+        "ADL_processed":              "datasets/processed/ADL_HMP_Dataset.pickle", 
     }
     
     with open(filenames[dataset_name], 'rb') as handle:
